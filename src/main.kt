@@ -16,15 +16,15 @@ fun laptops(){
 }
 //create a function,print out in grammaticatical case
 fun towns() {
-    var cities = arrayOf("harare", "mumbai", "dodoma", "jakarta")
+    var cities = arrayOf("harare", "nairobi", "dodoma", "jakarta")
     cities.sortedArray().forEach { town ->
         println(town.capitalize())
     }
 }
 //create afunction
 fun numbers1(){
-    var numb= arrayOf(32,17,4,213,73,90,31,3,73,11,158,62)
-    //println(numb[1])
+    var numb= arrayOf(355,17,4,253,73,90,31,3,73,11,158,62)
+    //println(numb[3])
    // println(numb[4])
     //prints out sum of second and fifth element
     var w= numb[1]+numb[4]
